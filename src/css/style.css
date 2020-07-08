@@ -1,0 +1,62 @@
+body {
+  background-color: #e8e8e8;
+  color: rgb(0, 0, 0);
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+#main {
+  width: 100%;
+  padding-right: 4rem;
+}
+.info {
+  width: 100%;
+  display: block;
+  margin-bottom: 40px;
+}
+.foto {
+  background-image: url(/src/images/fotoo.jpg);
+  width: 150px;
+  height: 150px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0.9em;
+}
+.profile.info {
+  box-sizing: border-box;
+}
+.profile {
+  position: relative;
+  font-weight: 500;
+  font-size: 2em;
+  padding-bottom: 1.8rem;
+  padding-left: 5rem;
+}
+.description {
+  clear: both;
+  padding-left: 3.8rem;
+  margin-left: 1.2rem;
+  margin-bottom: 3.2rem;
+  border-left: 0.15rem solid #8ea8c3;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding-inline-start: 40px;
+}
+
+.aside {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  width: 29rem;
+  padding: 0 7.5rem 0 0;
+}
