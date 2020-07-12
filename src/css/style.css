@@ -115,3 +115,15 @@ ul {
 .socialprofiletext {
   text-decoration: none;
 }
+a.socialprofiletext {
+  text-transform: uppercase;
+  color: #39a55f;
+  border: 1px solid;
+  line-height: 35.2px;
+  border-radius: 10px;
+  padding: 3px;
+}
+a:hover {
+  background-color: #2c666e;
+  color: #000000;
+}
