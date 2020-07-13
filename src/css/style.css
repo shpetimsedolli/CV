@@ -1,11 +1,9 @@
-div {
-  display: block;
-}
 .container {
   position: relative;
   display: block;
   max-width: 1170px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 .mainwrapper {
   width: 100%;
@@ -40,7 +38,8 @@ div {
   padding-left: 70px;
 }
 .description {
-  clear: both;
+  float: left;
+  padding-right: 100px;
   padding-left: 100px;
   margin-bottom: 3.2rem;
   border-left: 0.15rem solid #000000;
